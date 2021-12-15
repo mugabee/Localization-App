@@ -21,18 +21,14 @@ search location, and see the results.
 
 Clone down this repository. You will need node and npm installed globally on your machine.
 
-Installation:
+- Installation: npm install
 
-npm install
+- To Start Server:npm start
 
-To Start Server:
+- To Visit App: localhost:3000
 
-npm start
 
-To Visit App:
-
-localhost:3000
 
 ## API Used
- google_KEY
- Firebase Authentication keys
+ - google_KEY
+ - Firebase Authentication keys

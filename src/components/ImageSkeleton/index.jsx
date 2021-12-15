@@ -1,6 +1,9 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
+
+//restuarants loading
+
 const keyFrameLoading = keyframes`
   0% {
     opacity: 0.5;

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "Your Api Key",
-  authDomain: "Your Auth Domain",
-  projectId: "Your Project Id",
-  storageBucket: "Your storageBucket",
-  messagingSenderId: "Your Message",
-  appId: "Your AppId",
+  apiKey: "INSERT Your API",
+  authDomain: "INSERT Your API",
+  projectId: "INSERT Your API",
+  storageBucket: "INSERT Your API",
+  messagingSenderId: "INSERT Your API",
+  appId: " INSERT Your API",
 };
 
 // Initialize Firebase

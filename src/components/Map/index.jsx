@@ -10,6 +10,9 @@ export const MapContainer = (props) => {
   const { restaurants } = useSelector((state) => state.restaurants);
   const { google, query, placeId } = props;
 
+
+  // USER LOGATION SEARCH
+
   const searchByQuery = useCallback(
     (map, query) => {
       const service = new google.maps.places.PlacesService(map);
@@ -22,6 +25,8 @@ export const MapContainer = (props) => {
         query,
       };
 
+      //Show searched results based on user input
+
       service.textSearch(request, (results, status) => {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
           dispatch(setRestaurants(results));
@@ -30,7 +35,7 @@ export const MapContainer = (props) => {
     },
     [dispatch, google]
   );
-
+//get Restaurant detatils when clicked (name, openning_hours, address, phone_number)
   const getDetails = useCallback(
     (placeId) => {
       const service = new google.maps.places.PlacesService(map);
@@ -106,5 +111,5 @@ export const MapContainer = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: 'Your Map Api',
+  apiKey: 'INSERT Your API',
 })(MapContainer);

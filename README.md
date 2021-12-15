@@ -8,6 +8,7 @@
 -  A listing of the results is be displayed based on the searched location .
 - NB: Only users who have created an account and successfully logged in can see the map, 
 search location, and see the results. 
+## Application URL :: https://xenodochial-johnson-01699b.netlify.app/
 
 ## App Screen Shots
 
